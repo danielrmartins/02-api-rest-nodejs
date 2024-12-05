@@ -1,12 +1,45 @@
-# RF
+# 02-API-REST-NodeJS
 
-- [x] O usuário deve poder criar uma nova transação;
-- [ ] O usuário deve poder obter um resumo da sua conta;
-- [x] O usuário deve poder listar todas transações que já ocorreram;
-- [x] O usuário deve poder visualizar uma transação única;
+Uma API RESTful construída com Node.js, focada no gerenciamento de dados com boas práticas, utilizando TypeScript e bibliotecas modernas.
 
-# RN
+## Tecnologias Utilizadas
 
-- [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
-- [ ] Deve ser possível identificarmos o usuário entre as requisições;
-- [ ] O usuário só pode visualizar transações o qual ele criou;
+- **Node.js**: Plataforma para execução do código server-side.
+- **TypeScript**: Superset do JavaScript para tipagem estática.
+- **Fastify**: Framework web rápido e eficiente.
+- **Zod**: Biblioteca para validação e tipagem de dados.
+- **ESLint** e **Prettier**: Ferramentas para garantir qualidade e formatação do código.
+
+## Funcionalidades
+
+- Validação de dados com o **Zod**.
+- Estrutura modular e organizada.
+
+## Pré-requisitos
+
+Antes de começar, você precisará ter as seguintes ferramentas instaladas em sua máquina:
+
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/)
+
+## Instalação
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/danielrmartins/02-api-rest-nodejs.git
+   cd 02-api-rest-nodejs
+    ```
+
+2. Instale as dependencias:
+    ```bash
+    npm install
+    ```
+3. Inicie o servidor
+
+    ```bash
+    npm run dev
+    ```
+4. Para rodar os testes end-to-end:
+    ```bash
+    npm run test
+    ```
